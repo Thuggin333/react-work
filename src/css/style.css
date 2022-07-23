@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+#header {
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#header .logoDiv .logoh1 {
+  color: rgb(18, 92, 153);
+  cursor: pointer;
+}
+#header .menuElements {
+  width: 800px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#header .menuElements .menuEl {
+  transition: 0.2s;
+  cursor: pointer;
+}
+#header .menuElements .menuEl:hover {
+  color: rgb(18, 92, 153);
+  transition: 0.2s;
+}
+#header .menuElements .GetStarted {
+  border-radius: 5px;
+  background-color: rgb(18, 92, 153);
+  color: white;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+#main {
+  width: 100%;
+  height: 92vh;
+  background-image: url(../css/hero-bg.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#main .upBlock {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#main .upBlock .title {
+  margin: 10px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(18, 92, 153);
+}
+#main .upBlock .upP {
+  margin: 10px 0px;
+}
+#main .upBlock .button {
+  padding: 2% 4%;
+  background-color: rgb(18, 92, 153);
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+#main .downBlock {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+}
+#main .downBlock .downChild {
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+}
+#main .downBlock .downChild .childH1 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}/*# sourceMappingURL=style.css.map */
